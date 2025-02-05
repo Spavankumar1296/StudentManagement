@@ -16,7 +16,7 @@
             <li><a href="">Home</a></li>
             <li><a href="">Contact</a></li>
             <li><a href="">Admission</a></li>
-            <li><a class="btn btn-success" href="">Login</a></li>
+            <li><a class="btn btn-success" href="login.php">Login</a></li>
         </ul>
     </nav>
     <div class="section1">
