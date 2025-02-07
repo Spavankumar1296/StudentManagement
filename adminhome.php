@@ -12,57 +12,18 @@ elseif($_SESSION['usertype']=='student'){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="admin.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <?php
+        include 'admin_css.php'
+    ?>
 </head>
-<body>
-    <header class="header">
-
-        <a href="">Admin Dashboard</a>
-
-        <div class="logout">
-        <a href="logout.php" class="btn btn-primary">Logout</a>
-        </div>
-    </header>
-
-    <aside>
-        <ul>
-            <li>
-                <a href="">Admission</a>
-            </li>
-            <li>
-                <a href="">Add Students</a>
-            </li>
-            <li>
-                <a href="">View Students</a>
-            </li>
-            <li>
-                <a href="">Add Teachers</a>
-            </li>
-            <li>
-                <a href="">View Teachers</a>
-            </li>
-            <li>
-                <a href="">Add Courses</a>
-            </li>
-            <li>
-                <a href="">View Courses</a>
-            </li>
-        </ul>
-    </aside>
-
+<body> <?php
+        include 'admin_sidebar.php'
+        
+    ?>
     <div class="content">
-        <h1>Sidebar  According</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-            inventore at officiis quo eaque architecto culpa excepturi 
-            cupiditate facilis maiores aspernatur quidem
-        </p>
-        <input type="text" name="" id="">
+        <h1>Admin DashBoard</h1>
 
     </div>
     
