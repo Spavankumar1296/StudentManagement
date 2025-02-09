@@ -23,7 +23,7 @@
 </head>
 <body>
     <nav>
-        <label class="logo">W-SCHOOL</label>
+        <label class="logo">MY-COLLEGE</label>
         <ul >
             <li><a href="">Home</a></li>
             <li><a href="">Contact</a></li>
@@ -32,7 +32,7 @@
         </ul>
     </nav>
     <div class="section1">
-        <label class="img_text">Welcome To School</label>
+        <!-- <label class="img_text">Welcome To School</label> -->
         <img class="main_img" src="school.jpg" alt="">
     </div>
     <div class="container">
